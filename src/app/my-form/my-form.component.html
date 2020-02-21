@@ -1,0 +1,11 @@
+<div [formGroup]="form" >
+  <div>
+    <input type="text" formControlName="name">
+  </div>
+  <div>
+    <textarea formControlName="obs"></textarea>
+  </div>
+  <div>
+    <button [disabled]="form.invalid">Enviar</button>
+  </div>
+</div>

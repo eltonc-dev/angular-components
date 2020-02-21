@@ -1,0 +1,26 @@
+<app-my-form #myForm ></app-my-form>
+
+<div *ngIf="form" [formGroup]="form" >
+  <input type="text" formControlName="te" >
+</div>
+
+<div>
+  <app-my-select></app-my-select>
+</div>
+
+<div>
+<app-my-input></app-my-input>
+</div>
+
+<div>
+<app-my-input type="date"></app-my-input>
+</div>
+
+<div>
+<app-my-input type="color"></app-my-input>
+</div>
+
+<div>
+<app-my-input type="password"></app-my-input>
+</div>
+
